@@ -12,7 +12,7 @@ const AddAdmin = () => {
      
     }
 
-    const url = `http://localhost:5000/addAdmin`
+    const url = `https://immense-dawn-63507.herokuapp.com/addAdmin`
     console.log(serviceData)
     fetch(url, {
       method: 'POST',

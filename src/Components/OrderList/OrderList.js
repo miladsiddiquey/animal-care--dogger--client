@@ -8,7 +8,7 @@ const OrderList = () => {
     const [orders, setOrders] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/orders', {
+        fetch('https://immense-dawn-63507.herokuapp.com/orders', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({  email: loggedInUser.email })
@@ -45,7 +45,7 @@ const OrderList = () => {
                         <td>{orders.paymentId}</td>
                         <td>{orders.name}</td>
                         <td>${orders.price}</td>
-                        <td>${orders.orderTime}</td>
+                        <td>{orders.orderTime}</td>
 
                         
                         

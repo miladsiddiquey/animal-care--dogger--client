@@ -40,7 +40,7 @@ const Book = () => {
 
             };
 
-        fetch('http://localhost:5000/addOrder',{
+        fetch('https://immense-dawn-63507.herokuapp.com/addOrder',{
             method : "POST",
             headers:{
                 'Content-Type': 'application/json'

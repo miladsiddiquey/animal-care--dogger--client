@@ -15,7 +15,7 @@ const AddReview = () => {
       imageURL: imageURL
     }
 
-    const url = `http://localhost:5000/addReview`
+    const url = `https://immense-dawn-63507.herokuapp.com/addReview`
     console.log(reviewData)
     fetch(url, {
       method: 'POST',

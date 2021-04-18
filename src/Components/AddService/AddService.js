@@ -15,7 +15,7 @@ const AddService = () => {
       imageURL: imageURL
     }
 
-    const url = `http://localhost:5000/addService`
+    const url = `https://immense-dawn-63507.herokuapp.com/addService`
     console.log(serviceData)
     fetch(url, {
       method: 'POST',
