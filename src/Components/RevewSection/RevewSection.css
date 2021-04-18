@@ -1,0 +1,16 @@
+
+.review .card{
+    border-color: transparent;
+}
+
+.review .card .card-footer{
+    background: transparent;
+    border: 0;
+}
+.review{
+    background-color: rgb(252, 249, 243);
+}
+.card:hover{
+    
+    transform: translateY(-10px);
+}
