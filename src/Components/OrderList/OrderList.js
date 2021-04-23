@@ -8,7 +8,7 @@ const OrderList = () => {
     const [orders, setOrders] = useState([])
 
     useEffect(() => {
-        fetch('https://immense-dawn-63507.herokuapp.com/orders', {
+        fetch('http://localhost:5000/orders', {  
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({  email: loggedInUser.email })
@@ -17,6 +17,7 @@ const OrderList = () => {
             .then(data => setOrders(data))
     }, [])
 
+    
 
     return (
         <div className="container">
@@ -31,6 +32,7 @@ const OrderList = () => {
                 <th className="text-secondary" scope="col">Name</th>
                 <th className="text-secondary" scope="col">Price</th>
                 <th className="text-secondary" scope="col">Time</th>
+                <th className="text-secondary" scope="col">status</th>
               
                
                
@@ -46,7 +48,8 @@ const OrderList = () => {
                         <td>{orders.name}</td>
                         <td>${orders.price}</td>
                         <td>{orders.orderTime}</td>
-
+                        
+                            
                         
                         
                     </tr>

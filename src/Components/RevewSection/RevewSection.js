@@ -8,7 +8,7 @@ const RevewSection = () => {
     const [review, setReview] = useState([])
 
     useEffect(()=>{
-        fetch('https://immense-dawn-63507.herokuapp.com/reviews')
+        fetch('http://localhost:5000/reviews')
         .then(res => res.json())
         .then(data => setReview(data))
     },[])

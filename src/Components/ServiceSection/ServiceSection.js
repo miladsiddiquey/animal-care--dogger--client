@@ -12,7 +12,7 @@ const ServiceSection = () => {
 //    const [cart, setCart] = useState([])
 
     useEffect(()=>{
-        fetch('https://immense-dawn-63507.herokuapp.com/services')
+        fetch('http://localhost:5000/services')
         .then(res => res.json())
         .then(data => setService(data))
     },[setService])

@@ -15,7 +15,7 @@ const AddReview = () => {
       imageURL: imageURL
     }
 
-    const url = `https://immense-dawn-63507.herokuapp.com/addReview`
+    const url = `http://localhost:5000/addReview`
     console.log(reviewData)
     fetch(url, {
       method: 'POST',
@@ -29,7 +29,7 @@ const AddReview = () => {
 
 
   //image upload
-  const handleImageUpload = event =>{
+  const handleImageUpload = event => {
     console.log(event.target.files[0])
     const imageData = new FormData();
     imageData.set('key', '18aa31c052aa8ecc232f80604caa2d68');
@@ -65,7 +65,7 @@ const AddReview = () => {
               </div>
               <div className="mb-3">
                 <label className="form-label">Description</label>
-                <textarea name="description" className="form-control" id="" cols="10" rows="10" placeholder="Description *" {...register("description")}/>
+                <textarea name="description" className="form-control" id="" cols="10" rows="10" placeholder="Description *" {...register("description")} />
               </div>
               <div className="mb-3">
                 <label className="form-label">Import Image</label>

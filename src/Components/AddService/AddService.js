@@ -15,7 +15,7 @@ const AddService = () => {
       imageURL: imageURL
     }
 
-    const url = `https://immense-dawn-63507.herokuapp.com/addService`
+    const url = `http://localhost:5000/addService`
     console.log(serviceData)
     fetch(url, {
       method: 'POST',
@@ -32,7 +32,7 @@ const AddService = () => {
   const handleImageUpload = event =>{
     console.log(event.target.files[0])
     const imageData = new FormData();
-    imageData.set('key', '18aa31c052aa8ecc232f80604caa2d68');
+    imageData.set('key', ' 18aa31c052aa8ecc232f80604caa2d68');
     imageData.append('image', event.target.files[0])
 
 
