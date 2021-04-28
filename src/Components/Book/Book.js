@@ -33,7 +33,10 @@ const Book = () => {
     const handlePaymentSuccess = paymentId =>{
         const orderDetails = {
             ...loggedInUser, 
-            ...particularItem,
+             name: particularItem.name,
+            price: particularItem.price,
+            description: particularItem.description,
+            imageURL: particularItem.imageURL,
              booking: shippingData,
              paymentId,
              orderTime: new Date()
