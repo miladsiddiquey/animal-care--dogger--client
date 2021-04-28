@@ -17,4 +17,4 @@ Used on this website
 
 *** site-live-link:  https://dog-care-6c0d8.web.app/
 
-*** server-site-git-link:  https://github.com/Porgramming-Hero-web-course/complete-website-server-miladsiddiquey.git
+*** server-site-git-link:  https://github.com/miladsiddiquey/animal-care--dogger--server.git
