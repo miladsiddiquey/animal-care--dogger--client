@@ -25,7 +25,10 @@ Used Technolgies:
    * context api
 
 
+Output:
 
+  *Home page
+  ![FireShot Capture 213 - React App - dog-care-6c0d8 web app](https://user-images.githubusercontent.com/75581636/116721875-9bc3ff00-a9ff-11eb-8d19-2f33fa7b1ac4.jpg)
 *** site-live-link:  https://dog-care-6c0d8.web.app/
 
 *** server-site-git-link:  https://github.com/miladsiddiquey/animal-care--dogger--server.git
