@@ -14,15 +14,15 @@ Features:
 
 Used Technolgies:
 
-   1) react-router
-   2)react private router
-   3)react-bootstrap
-   4) react-hook form
-   5) Firebase authentication
-   6) mongodb
-   7) node js
-   8) express js
-   9) context api
+   * react-router
+   * react private router
+   * react-bootstrap
+   * react-hook form
+   * Firebase authentication
+   * mongodb
+   * node js
+   * express js
+   * context api
 
 
 
